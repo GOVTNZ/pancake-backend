@@ -29,8 +29,11 @@ class OpenFiscaService
         }
       }
     }
-    response = calculate(query)
-    response['properties'][property_name]['rates_rebate'][year]
+
+    #response = calculate(query)
+    #response['properties'][property_name]['rates_rebate'][year]
+
+    0
   end
 
   def self.calculate(query)
